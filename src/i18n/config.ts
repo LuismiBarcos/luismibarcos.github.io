@@ -1,6 +1,6 @@
 import type { I18nStrings } from "./types";
 import ENLocale from "./locales/en";
-import ESLocale from "@/i18n/locales/es.ts";
+import ESLocale from "./locales/es";
 
 export type LocaleProfile = {
   name: string;
