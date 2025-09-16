@@ -1,33 +1,33 @@
 import type { I18nStrings } from "@/i18n/types";
 
 const baseStrings = {
-  "site.title": "AstroPaper I18n",
-  "site.desc": "Una bifurcación del tema AstroPaper con soporte para I18n",
+  "site.title": "LuismiBarcos",
+  "site.desc": "Situado en España, Luismi es un experto en backend apasionado por Java y Kotlin, y un gran fanático de la programación funcional.",
 };
 
 const ESLocale: I18nStrings = {
   ...baseStrings,
-  "hero.title": "Mingalaba",
+  "hero.title": "Luismi Barcos",
   "hero.body": `
-        AstroPaper es un tema de blog minimalista, responsivo, accesible y optimizado para SEO en Astro.
-        Este tema sigue las mejores prácticas y ofrece accesibilidad desde el primer momento.
-        Se admiten modos claro y oscuro por defecto. Además, se pueden configurar esquemas de color adicionales.
+        Un experto en backend apasionado por Java y Kotlin, y un gran fanático de 
+        la programación funcional, que ofrece constantemente APIs de alta calidad 
+        siguiendo las mejores prácticas e impulsando la innovación.
 `,
   "hero.beforeReadme": "Lee las publicaciones del blog o consulta",
-  "hero.readme": "README",
+  "hero.readme": "GitHub",
   "hero.afterReadme": "para más información.",
   copy: "copiar",
   copied: "copiado",
   by: "por",
-  about: "Acerca de",
+  about: "Sobre mí",
   socialLinks: "Redes Sociales",
   home: "Inicio",
   posts: "Publicaciones",
   "posts.desc": "Todos los artículos que he publicado.",
-  tag: "Etiqueta",
-  "tag.desc": 'Todos los artículos con la etiqueta "{name}".',
-  tags: "Etiquetas",
-  "tags.desc": "Todas las etiquetas usadas en publicaciones",
+  tag: "Tag",
+  "tag.desc": 'Todos los artículos con la tag "{name}".',
+  tags: "Tags",
+  "tags.desc": "Todas las tags usadas en publicaciones",
   archives: "Archivos",
   "archives.desc": "Todos los artículos que he archivado.",
   featured: "Destacado",

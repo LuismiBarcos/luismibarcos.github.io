@@ -13,27 +13,21 @@ type Translator = ReturnType<typeof translateFor>;
 export const SOCIALS = [
   {
     name: "Github",
-    href: "https://github.com/yousef8/astro-paper-i18n",
+    href: "https://github.com/LuismiBarcos",
     linkTitle: (t: Translator) => t("socials.github"),
     icon: IconGitHub,
   },
   {
     name: "X",
-    href: "https://x.com/username",
+    href: "https://x.com/LuismiBarcos",
     linkTitle: (t: Translator) => t("socials.x"),
     icon: IconBrandX,
   },
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/in/username/",
+    href: "https://www.linkedin.com/in/luismibarcos/",
     linkTitle: (t: Translator) => t("socials.linkedin"),
     icon: IconLinkedin,
-  },
-  {
-    name: "Mail",
-    href: "mailto:yourmail@gmail.com",
-    linkTitle: (t: Translator) => t("socials.mail"),
-    icon: IconMail,
   },
 ] as const;
 
