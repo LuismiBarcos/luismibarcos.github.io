@@ -14,10 +14,12 @@ type Params = InferGetStaticParamsType<typeof getStaticPaths>;
 export const GET: APIRoute = async ({ params }) => {
   const { locale: localeKey = DEFAULT_LOCALE } = params as Params;
 
-  return new Response(
-    await generateOgImageForSite(localeKey, getLocaleInfo(localeKey)),
-    {
-      headers: { "Content-Type": "image/png" },
-    }
+  const imageBuffer = await generateOgImageForSite(
+    localeKey,
+    getLocaleInfo(localeKey)
   );
+
+  return new Response(new Uint8Array(imageBuffer), {
+    headers: { "Content-Type": "image/png" },
+  });
 };

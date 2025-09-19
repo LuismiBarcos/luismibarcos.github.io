@@ -45,14 +45,13 @@ export const GET: APIRoute = async ({ params, props }) => {
 
   const { locale = DEFAULT_LOCALE } = params as Params;
 
-  return new Response(
-    await generateOgImageForPost(
-      props as CollectionEntry<"blog">,
-      locale,
-      getLocaleInfo(locale)
-    ),
-    {
-      headers: { "Content-Type": "image/png" },
-    }
+  const imageBuffer = await generateOgImageForPost(
+    props as CollectionEntry<"blog">,
+    locale,
+    getLocaleInfo(locale)
   );
+
+  return new Response(new Uint8Array(imageBuffer), {
+    headers: { "Content-Type": "image/png" },
+  });
 };

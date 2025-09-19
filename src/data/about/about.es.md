@@ -18,21 +18,23 @@ title: "Sobre mí"
 
 ## 🛠 Lo que hago
 
-| Backend & APIs | Intereses |
-|----------------|-----------------------|
-| Diseñar y construir **REST APIs** | Conceptos de programación funcional |
-| Conectar productos con **sistemas y servicios externos** | Kotlin como mi lenguaje principal |
-| Asegurar fiabilidad, escalabilidad e integraciones limpias | Git y colaboración en equipo |
+| Backend & APIs                                             | Intereses                           |
+| ---------------------------------------------------------- | ----------------------------------- |
+| Diseñar y construir **REST APIs**                          | Conceptos de programación funcional |
+| Conectar productos con **sistemas y servicios externos**   | Kotlin como mi lenguaje principal   |
+| Asegurar fiabilidad, escalabilidad e integraciones limpias | Git y colaboración en equipo        |
 
 ---
 
 ## Habilidades:
+
 ![Java](https://img.shields.io/badge/Java-0071b0?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=101010)
 ![Kotlin](https://img.shields.io/badge/Kotlin-874BFD?style=for-the-badge&logo=kotlin&logoColor=white&labelColor=101010)
 ![IntelliJ](https://img.shields.io/badge/IntelliJ-ad3dd2?style=for-the-badge&logo=intellijidea&logoColor=white&labelColor=101010)
 ![Git](https://img.shields.io/badge/Git-f05133?style=for-the-badge&logo=git&logoColor=orange&labelColor=101010)
 
 ## ✍️ Publicaciones en el blog
+
 - [Keep Git History Clean](https://careers.celonis.com/blog/keep-git-history-clean)
 - [Liferay Screens Meets React Native: The Sequel](https://liferay.dev/blogs/-/blogs/liferay-screens-meets-react-native-the-sequel)
 - [LiferayPhotos: A Fully Functional App in 10 Days](https://liferay.dev/blogs/-/blogs/liferayphotos-a-fully-functional-app-in-10-days-using-liferay-screens-final-part-development-experience-)
@@ -47,6 +49,7 @@ title: "Sobre mí"
 ---
 
 ## 📂 Algunos proyectos
+
 - **SDI: Simple Dependency Injection** - Una sencilla [librería de inyección de dependencias](https://github.com/LuismiBarcos/SDI) para proyectos simples.
 - **LiferayScreensReactNative** — [Componentes / pantallas en React Native](https://github.com/LuismiBarcos/LiferayScreensReactNative) para Liferay.
 

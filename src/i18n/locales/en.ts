@@ -2,7 +2,8 @@ import type { I18nStrings } from "@/i18n/types";
 
 const baseStrings = {
   "site.title": "LuismiBarcos",
-  "site.desc": "Based in Spain, Luismi is a backend expert passionate about Java and Kotlin, and a big fan of functional programming.",
+  "site.desc":
+    "Based in Spain, Luismi is a backend expert passionate about Java and Kotlin, and a big fan of functional programming.",
 };
 
 const ENLocale: I18nStrings = {

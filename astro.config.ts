@@ -1,14 +1,15 @@
 import { defineConfig } from "astro/config";
+import { fileURLToPath, URL } from "url";
 import tailwindcss from "@tailwindcss/vite";
 import sitemap from "@astrojs/sitemap";
 import remarkToc from "remark-toc";
 import remarkCollapse from "remark-collapse";
-import { SITE } from "./src/config";
+import { SITE } from "./src/config.ts";
 import {
   DEFAULT_LOCALE,
   LOCALES_TO_LANG,
   SUPPORTED_LOCALES,
-} from "./src/i18n/config";
+} from "./src/i18n/config.ts";
 
 // https://astro.build/config
 export default defineConfig({
@@ -44,9 +45,14 @@ export default defineConfig({
     },
   },
   vite: {
-    plugins: [tailwindcss()],
+    plugins: [tailwindcss() as never],
     optimizeDeps: {
       exclude: ["@resvg/resvg-js"],
+    },
+    resolve: {
+      alias: {
+        "@": fileURLToPath(new URL("./src", import.meta.url)),
+      },
     },
   },
 });

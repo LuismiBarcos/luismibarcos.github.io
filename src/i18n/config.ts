@@ -26,10 +26,10 @@ export const localeToProfile = {
   es: {
     name: "Español",
     messages: ESLocale,
-    langTag: "en-US",
+    langTag: "es-ES",
     direction: "ltr",
     googleFontName: "IBM+Plex+Mono",
-    default: true,
+    default: false,
   },
 } satisfies Record<string, LocaleProfile>;
 

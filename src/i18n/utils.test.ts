@@ -137,7 +137,7 @@ describe("getRelativeLocalePath", () => {
   });
 
   it("should not remove trailing slash for root path `/`", () => {
-    const isLocaleKey = (locale?: string): locale is LocaleKey => true;
+    const isLocaleKey = (_locale?: string): _locale is LocaleKey => true;
     expect(
       getRelativeLocalePath(DEFAULT_LOCALE, "/", { _isLocaleKey: isLocaleKey })
     ).toBe("/");
