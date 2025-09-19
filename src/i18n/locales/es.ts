@@ -63,7 +63,12 @@ Este es mi <b>blog personal</b>, donde comparto reflexiones y experimentos por c
   toggleLightAndDark: "Cambiar entre claro y oscuro",
   "pagination.prev": "Anterior",
   "pagination.next": "Siguiente",
-  "footer.text": "Copyright © {year} | Todos los derechos reservados",
+  "footer.text": `
+    Powered by <a class="underline decoration-dashed underline-offset-8" href='https://astro.build/'>Astro</a>.
+    <br/>
+    Theme by <a class="underline decoration-dashed underline-offset-8" href='https://github.com/yousef8/astro-paper-i18n'>AstroPaper with I18n</a>
+    <br/>
+    Copyright © {year} | All rights reserved`,
   "date.published": "Publicado",
   "date.updated": "Actualizado",
   "date.month.1": "Enero",

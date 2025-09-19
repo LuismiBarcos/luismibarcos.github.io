@@ -64,7 +64,12 @@ Everything here is my own perspective and does not represent my employer.
   toggleLightAndDark: "Toggles light & dark",
   "pagination.prev": "Prev",
   "pagination.next": "Next",
-  "footer.text": "Copyright © {year} | All rights reserved",
+  "footer.text": `
+    Powered by <a class="underline decoration-dashed underline-offset-8" href='https://astro.build/'>Astro</a>.
+    <br/>
+    Theme by <a class="underline decoration-dashed underline-offset-8" href='https://github.com/yousef8/astro-paper-i18n'>AstroPaper with I18n</a>
+    <br/>
+    Copyright © {year} | All rights reserved`,
   "date.published": "Published",
   "date.updated": "Updated",
   "date.month.1": "January",
