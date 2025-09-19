@@ -10,13 +10,22 @@ const ESLocale: I18nStrings = {
   ...baseStrings,
   "hero.title": "Luismi Barcos",
   "hero.body": `
-        Un experto en backend apasionado por Java y Kotlin, y un gran fanático de 
-        la programación funcional, que ofrece constantemente APIs de alta calidad 
-        siguiendo las mejores prácticas e impulsando la innovación.
+<p>
+Hola, soy un <b>desarrollador de software</b> apasionado por crear soluciones prácticas.<br>
+Trabajo sobre todo con <b>Java</b> y <b>REST APIs</b>, aunque también me interesa <b>Kotlin</b> y la <b>programación funcional</b>.
+</p>
+<br/>
+<p>
+Me gusta aprender sobre <b>arquitectura de software</b> y <b>código limpio</b>, y explorar formas de mejorar mi <b>productividad personal</b>.
+</p>
+<br/>
+<p>
+Este es mi <b>blog personal</b>, donde comparto reflexiones y experimentos por curiosidad y diversión.  
+</p>
 `,
-  "hero.beforeReadme": "Lee las publicaciones del blog o consulta",
-  "hero.readme": "GitHub",
-  "hero.afterReadme": "para más información.",
+  "hero.beforeReadme": "",
+  "hero.readme": "",
+  "hero.afterReadme": "",
   copy: "copiar",
   copied: "copiado",
   by: "por",

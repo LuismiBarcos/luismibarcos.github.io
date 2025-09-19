@@ -10,13 +10,23 @@ const ENLocale: I18nStrings = {
   ...baseStrings,
   "hero.title": "Luismi Barcos",
   "hero.body": `
-        A backend expert passionate about Java and Kotlin, and a big fan of 
-        functional programming, he consistently delivers high-quality APIs by 
-        adhering to best practices and driving innovation.
+<p>
+Hi, I’m a <b>software developer</b> passionate about building practical solutions.<br>
+I mainly work with <b>Java</b> and <b>REST APIs</b>, but I’m also exploring <b>Kotlin</b> and <b>functional programming</b>.
+</p>
+<br/>
+<p>
+I enjoy learning about <b>software architecture</b> and <b>clean code</b>, and finding ways to improve my <b>personal productivity</b>.
+</p>
+<br/>
+<p>
+This is my <b>personal blog</b>, where I share reflections and experiments out of curiosity and passion.  
+Everything here is my own perspective and does not represent my employer.
+</p>
 `,
-  "hero.beforeReadme": "Read the blog posts or check",
-  "hero.readme": "GitHub",
-  "hero.afterReadme": "for more info.",
+  "hero.beforeReadme": "",
+  "hero.readme": "",
+  "hero.afterReadme": "",
   copy: "copy",
   copied: "copied",
   by: "by",
