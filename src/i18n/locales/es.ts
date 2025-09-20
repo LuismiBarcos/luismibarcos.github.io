@@ -1,7 +1,7 @@
 import type { I18nStrings } from "@/i18n/types";
 
 const baseStrings = {
-  "site.title": "LuismiBarcos",
+  "site.title": "Luismi Barcos",
   "site.desc":
     "Situado en España, Luismi es un experto en backend apasionado por Java y Kotlin, y un gran fanático de la programación funcional.",
 };
@@ -32,19 +32,19 @@ Este es mi <b>blog personal</b>, donde comparto reflexiones y experimentos por c
   about: "Sobre mí",
   socialLinks: "Redes Sociales",
   home: "Inicio",
-  posts: "Publicaciones",
+  posts: "Posts",
   "posts.desc": "Todos los artículos que he publicado.",
   tag: "Tag",
   "tag.desc": 'Todos los artículos con la tag "{name}".',
   tags: "Tags",
-  "tags.desc": "Todas las tags usadas en publicaciones",
+  "tags.desc": "Todas las tags usadas en posts",
   archives: "Archivos",
   "archives.desc": "Todos los artículos que he archivado.",
   featured: "Destacado",
-  recentPosts: "Publicaciones Recientes",
+  recentPosts: "Posts Recientes",
   tableOfContents: "Tabla de contenidos",
   "tableOfContents.desc": "Abrir tabla de contenidos",
-  allPosts: "Todas las publicaciones",
+  allPosts: "Todas las posts",
   search: "Buscar",
   "search.desc": "Busca cualquier artículo",
   "search.placeholder": "Buscar lo que sea",
