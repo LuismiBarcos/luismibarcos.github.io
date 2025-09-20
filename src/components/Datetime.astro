@@ -34,7 +34,6 @@ const datetime = DateTime.fromJSDate(new Date(latestDatetime))
   .setLocale(LOCALE.langTag);
 
 const date = datetime.toFormat("d MMM, yyyy"); // e.g., '22 Mar, 2025'
-const time = datetime.toFormat("hh:mm a"); // e.g., '08:30 PM'
 ---
 
 <div class:list={["flex items-end space-x-2 opacity-80", className]}>
@@ -55,8 +54,5 @@ const time = datetime.toFormat("hh:mm a"); // e.g., '08:30 PM'
   }
   <span class:list={["text-sm italic", { "sm:text-base": size === "lg" }]}>
     <time datetime={datetime.toISO()}>{date}</time>
-    <span aria-hidden="true"> | </span>
-    <span class="sr-only">&nbsp;at&nbsp;</span>
-    <span class="text-nowrap">{time}</span>
   </span>
 </div>

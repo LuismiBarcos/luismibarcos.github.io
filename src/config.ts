@@ -10,7 +10,7 @@ export const SITE = {
   showArchives: true,
   showBackButton: true, // show back button in post detail
   editPost: {
-    enabled: true,
+    enabled: false,
     url: "https://github.com/LuismiBarcos/luismibarcos.github.io/edit/main/",
   },
   dynamicOgImage: true,
