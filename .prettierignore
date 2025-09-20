@@ -12,3 +12,9 @@
 !.prettierrc
 !eslint.config.js
 !README.md
+
+# Ignore image files in src/assets/images
+/src/assets/images/**/*.png
+/src/assets/images/**/*.jpg
+/src/assets/images/**/*.jpeg
+/src/assets/images/**/*.gif
