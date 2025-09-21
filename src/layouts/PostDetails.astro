@@ -18,6 +18,7 @@ import {
   translateFor,
 } from "@/i18n/utils";
 import { SITE } from "@/config";
+import Comments from "@/components/Comments";
 
 export interface Props {
   post: CollectionEntry<"blog">;
@@ -121,26 +122,6 @@ const nextPost =
 
     <EditPost class="sm:hidden" {hideEditPost} {post} />
 
-    <ul class="mt-4 mb-8 sm:my-8">
-      {tags.map(tag => <Tag tag={slugifyStr(tag)} tagName={tag} />)}
-    </ul>
-
-    <div
-      class="flex flex-col items-center justify-between gap-6 sm:flex-row sm:items-end sm:gap-4"
-    >
-      <ShareLinks />
-
-      <button
-        id="back-to-top"
-        class="focus-outline py-1 whitespace-nowrap hover:opacity-75"
-      >
-        <IconChevronLeft class="inline-block rotate-90" />
-        <span>{t("navigation.backToTop")}</span>
-      </button>
-    </div>
-
-    <hr class="my-6 border-dashed" />
-
     <!-- Previous/Next Post Buttons -->
     <div data-pagefind-ignore class="grid grid-cols-1 gap-6 sm:grid-cols-2">
       {
@@ -178,6 +159,31 @@ const nextPost =
         )
       }
     </div>
+
+    <div
+      class="flex flex-col items-center justify-between gap-6 sm:flex-row sm:items-end sm:gap-4"
+    >
+      <ul class="mt-4 mb-8 sm:my-8">
+        {tags.map(tag => <Tag tag={slugifyStr(tag)} tagName={tag} />)}
+      </ul>
+      <!--<button-->
+      <!--  id="back-to-top"-->
+      <!--  class="focus-outline py-1 whitespace-nowrap hover:opacity-75"-->
+      <!--&gt;-->
+      <!--  <IconChevronLeft class="inline-block rotate-90" />-->
+      <!--  <span>{t("navigation.backToTop")}</span>-->
+      <!--</button>-->
+      <div
+        class="flex flex-col items-center justify-between gap-6 sm:flex-row sm:items-end sm:gap-4"
+      >
+        <ShareLinks />
+      </div>
+    </div>
+
+    <hr class="my-6 border-dashed" />
+    <!--Discus: App to enable comments o the blog-->
+    <Comments client:only="react" />
+    <!--END Discus-->
   </main>
   <Footer />
 </Layout>

@@ -7,6 +7,7 @@ import IconFacebook from "@/assets/icons/IconFacebook.svg";
 import IconTelegram from "@/assets/icons/IconTelegram.svg";
 import IconPinterest from "@/assets/icons/IconPinterest.svg";
 import { translateFor } from "@/i18n/utils";
+import type { GiscusProps } from "@giscus/react";
 
 type Translator = ReturnType<typeof translateFor>;
 
@@ -69,3 +70,16 @@ export const SHARE_LINKS = [
     icon: IconMail,
   },
 ] as const;
+
+export const GISCUS: GiscusProps = {
+  repo: "LuismiBarcos/luismibarcos.github.io",
+  repoId: "R_kgDOPxL5rg",
+  category: "General",
+  categoryId: "DIC_kwDOPxL5rs4CvuRe",
+  mapping: "pathname",
+  reactionsEnabled: "0",
+  emitMetadata: "0",
+  inputPosition: "bottom",
+  lang: "en",
+  loading: "lazy",
+};

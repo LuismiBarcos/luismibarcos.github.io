@@ -11,6 +11,8 @@ import {
   SUPPORTED_LOCALES,
 } from "./src/i18n/config.ts";
 
+import react from "@astrojs/react";
+
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
@@ -26,6 +28,7 @@ export default defineConfig({
         locales: LOCALES_TO_LANG,
       },
     }),
+    react(),
   ],
   markdown: {
     remarkPlugins: [
