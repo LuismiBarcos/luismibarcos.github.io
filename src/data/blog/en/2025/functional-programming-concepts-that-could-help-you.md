@@ -4,7 +4,6 @@ pubDatetime: 2025-09-21
 title: "Functional Programming: Concepts that Could Help You"
 description: "Discover how core Functional Programming concepts like pure functions, immutability, and function composition can improve the readability, maintainability, and reliability of your Java code."
 featured: true
-draft: true
 tags:
   - Functional Programming
   - Java
