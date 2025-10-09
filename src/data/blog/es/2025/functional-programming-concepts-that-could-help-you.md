@@ -1,6 +1,6 @@
 ---
 author: Luismi Barcos
-pubDatetime: 2025-09-21
+pubDatetime: 2025-10-09
 title: "Programación Funcional: Conceptos útiles"
 description: "Descubre cómo los conceptos clave de la Programación Funcional, como las funciones puras, la inmutabilidad y la composición de funciones, pueden mejorar la legibilidad, mantenibilidad y confiabilidad de tu código en Java."
 featured: true
