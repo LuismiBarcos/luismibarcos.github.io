@@ -1,7 +1,7 @@
 ---
 author: Luismi Barcos
-pubDatetime: 2026-02-28
-title: "Getting Software Done"
+pubDatetime: 2026-02-01
+title: "Getting Software Done: The Messy Mind"
 description: "First part of a series of posts for developers about how to better organize work and regain focus to be more productive with less stress."
 featured: true
 tags:

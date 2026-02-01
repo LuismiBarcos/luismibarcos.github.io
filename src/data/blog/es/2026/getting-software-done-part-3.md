@@ -1,7 +1,7 @@
 ---
 author: Luismi Barcos
-pubDatetime: 2026-02-28
-title: "Getting Software Done"
+pubDatetime: 2026-02-15
+title: "Getting Software Done: Alimentando y Gestionando Nuestro Sistema"
 description: " Tercera parte del grupo de posts para desarrolladores sobre cómo organizar mejor el trabajo y recuperar el foco para ser más productivos con menos estrés."
 featured: true
 tags:
