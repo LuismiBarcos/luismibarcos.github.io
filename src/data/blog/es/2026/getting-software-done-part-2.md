@@ -4,6 +4,7 @@ pubDatetime: 2026-02-08
 title: "Getting Software Done: El sistema GTD"
 description: " Segunda parte del grupo de posts para desarrolladores sobre cómo organizar mejor el trabajo y recuperar el foco para ser más productivos con menos estrés."
 featured: true
+draft: false
 tags:
   - Mindset
   - Productivity
